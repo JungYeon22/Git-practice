@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+
+
     public static <list> void main(String[] args) {
         Main main = new Main();
         int a = 14;
@@ -15,6 +17,7 @@ public class Main {
 
         System.out.println(main.div(a,b));
         // mul(a, b) - 곱하기
+        System.out.println(mul(10,2));
     }
 
     public int div(int a,int b){
@@ -26,4 +29,8 @@ public class Main {
     }
 
     public int sub(int a, int b) {return a-b;}
+
+    public static int mul(int a, int b) {
+        return a * b;
+    }
 }
