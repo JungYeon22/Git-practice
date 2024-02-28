@@ -10,7 +10,7 @@ public class Main {
         // add(a, b) - 더하기
         System.out.println(main.add(a,b));
         // sub(a, b) - 빼기
-
+        System.out.println(main.sub(a,b));
         // div(a, b) - 나누기
 
         System.out.println(main.div(a,b));
@@ -24,4 +24,6 @@ public class Main {
     public  int add(int a, int b){
         return a+b;
     }
+
+    public int sub(int a, int b) {return a-b;}
 }
