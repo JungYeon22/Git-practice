@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
-    public static void main(String[] args) {
+    public static <list> void main(String[] args) {
 
         int a = 14;
         int b = 3;
