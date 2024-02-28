@@ -12,7 +12,12 @@ public class Main {
         // sub(a, b) - 빼기
 
         // div(a, b) - 나누기
-
+        Main main = new Main();
+        System.out.println(main.div(a,b));
         // mul(a, b) - 곱하기
+    }
+
+    public int div(int a,int b){
+        return a/b;
     }
 }
