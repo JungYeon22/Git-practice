@@ -2,6 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+
+    public static int mul(int a, int b) {
+        return a * b;
+    }
     public static <list> void main(String[] args) {
 
         int a = 14;
@@ -14,5 +18,7 @@ public class Main {
         // div(a, b) - 나누기
 
         // mul(a, b) - 곱하기
+        System.out.println(mul(10,2));
     }
+
 }
