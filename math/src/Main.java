@@ -3,9 +3,7 @@ import java.util.List;
 
 public class Main {
 
-    public static int mul(int a, int b) {
-        return a * b;
-    }
+
     public static <list> void main(String[] args) {
         Main main = new Main();
         int a = 14;
@@ -32,4 +30,7 @@ public class Main {
 
     public int sub(int a, int b) {return a-b;}
 
+    public static int mul(int a, int b) {
+        return a * b;
+    }
 }
